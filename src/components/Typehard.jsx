@@ -3,7 +3,7 @@ import "./Typepage.css";
 import { Link } from "react-router-dom";
 
 const getcloud = () =>
-`salad jacket flask salad falafel sassafras jasmine flag flakiness alike damsel damask salad flank flammable flask jakarta lass fame flake salad jacket flask salad falafel flag alike damsel damask salad flank flask lass fame flake`.split(
+`salad jacket flask salad falafel sassafras jasmine flag flakiness alike damsel damask salad flank flammable flask jakarta lass fame flake salad flask salad flag alike damsel`.split(
     " "
   );
 

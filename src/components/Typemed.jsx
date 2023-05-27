@@ -3,7 +3,7 @@ import "./Typepage.css";
 import { Link } from "react-router-dom";
 
 const getcloud = () =>
-`asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; dad ask sad fall flag add jazz all lass`.split(
+  `asdf asdf asdf asdf asdf asdf asdf asdf asdf asdf jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; dad ask sad fall flag add `.split(
     " "
   );
 

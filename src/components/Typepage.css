@@ -61,9 +61,9 @@ border: none;
  .fill{
     width: 45%;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
     /* border: 1px solid red; */
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: 400;
 
@@ -80,7 +80,7 @@ border: none;
   font-weight: bold;
   border-radius: 10px;
   margin-left: 42%;
-  margin-top: 10px;
+  margin-top: 2px;
  }
  .back:hover{
   background-color: rgb(80, 76, 76);
@@ -99,7 +99,7 @@ border: none;
   position: relative;
   font-size: 2vw;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   color: white;
   margin-bottom: 10px;
  -webkit-text-stroke: 0.1vw white;
@@ -131,4 +131,65 @@ h1::before{
       width:100%;
   }
 }
+
+@media all and (min-width:320px) and (max-width:767px){
+
+  .type{
+  
+    width: 30%;
+   height: 300px;
+    /* border: 1px solid red; */
+    
+    margin: auto;
+    font-size: 10px;
+    font-weight: 300;
+    border-radius:30px;
+    
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ }
+
+ .back{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: white;
+ font-size: 10px;
+  width: 20%;
+  height: 20px;
+  border-color: white;
+  color: teal;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 42%;
+  margin-top: 2px;
+ }
+ .fill{
+  width: 45%;
+  margin: auto;
+  margin-top: 1rem;
+  /* border: 1px solid red; */
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+
+
+}
+input{
+ 
+  width: 50%;
+  height: 4vh;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 30px;
+letter-spacing: 3px;
+outline: none;
+border: none;
+
+
+
+}
+
+}
+
 
