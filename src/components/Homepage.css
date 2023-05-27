@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(191, 248, 229);
+}
+h1{
+    text-align: center;
+    color: teal;
+    margin-top: 350px;
+}
+
+.touch_nav{
+    color: teal;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.touch_div{
+    box-shadow: rgb(255, 254, 254) 0px 1px 2px, rgb(255, 253, 253) 0px 2px 4px, rgb(255, 252, 252) 0px 4px 8px, rgb(255, 252, 252) 0px 8px 16px, rgb(255, 255, 255) 0px 16px 32px, rgb(249, 248, 248) 0px 32px 64px;
+   
+    width: 60%;
+    height: 450px;
+    margin: auto;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+img{
+    width: 90%;
+    height: 350px;
+    margin-left: 60px;
+    margin: 50px;
+}
+.btn{
+   
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+    
+
+
+}
+.btn>button{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: white;
+   font-size: 20px;
+    width: 15%;
+    height: 70px;
+    border-color: white;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn>button:hover{
+   
+    background-color: rgb(80, 76, 76);
+   font-size: 30px;
+    width: 15%;
+    height: 70px;
+    border-color: white;
+    color:red;
+    font-weight: bold;
+    border-radius: 10px;
+}
+h2{
+    font-size: 40px;
+}
+
+h1{
+    position: relative;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+   -webkit-text-stroke: 0.1vw white;
+    text-transform: uppercase;
+}
+
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color:teal;
+    -webkit-text-stroke: 0vw white;
+    border-right: 2px solid teal;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width:100%;
+    }
+}
+
