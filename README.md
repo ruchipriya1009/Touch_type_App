@@ -1,3 +1,16 @@
+# About App
+Touch typing is a technique that helps you type faster and more efficiently by using all your fingers. Typing with this technique is important because it can greatly improve your productivity, especially if you have a type-intensive job, like a programmer or a writer.
+
+Features:-
+WPM
+Accuracy check
+Key Presses count
+Count Down time limit
+if press wrong key show red
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
